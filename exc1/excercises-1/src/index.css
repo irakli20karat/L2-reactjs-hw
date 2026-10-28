@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbf5ec;
+  color: #3d2b1f;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #7b4b32;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active-link a {
+  color: #5b13cf;
+  text-decoration: underline;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #f4dfc8;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #765442;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #a45e35;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* ===== MENU ===== */
+.menu {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 260px;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-emoji {
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #765442;
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #a45e35;
+  margin-bottom: 16px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+  background-color: #3d2b1f;
+  color: white;
+}
